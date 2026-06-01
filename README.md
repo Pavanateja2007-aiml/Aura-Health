@@ -1,185 +1,160 @@
-# VitaAI – AI-Powered Health & Wellness Companion
+# Problem Statement — Round 1 Submission
 
-### Team: pavanatejavemuri2007
-### Hackathon: AI & Automation – Smart Tools for Everyday Problems
-
----
-
-## Executive Summary
-
-Maintaining healthy habits is one of the biggest challenges faced by students, professionals, and individuals managing chronic conditions. While fitness and health-tracking applications collect large amounts of personal data, they often fail to provide meaningful, personalized guidance that helps users make better daily decisions.
-
-**VitaAI** is an AI-powered health and wellness companion that transforms passive health tracking into proactive wellness coaching. By analyzing sleep, hydration, mood, nutrition, and physical activity patterns, VitaAI delivers personalized insights, context-aware recommendations, and early burnout detection to help users build sustainable healthy habits.
+## Aura Health — AI-Powered Personal Wellness Companion
 
 ---
 
-# Problem Statement
+### The Problem
 
-Millions of people struggle to maintain consistent wellness routines—not because they lack motivation, but because they lack personalized, real-time guidance.
+Millions of people struggle to maintain healthy lifestyles—not because they lack motivation, but because they lack personalized, real-time guidance. Most health and fitness apps provide generic recommendations, ignoring individual patterns in sleep, stress, nutrition, hydration, and daily activity. As a result, users often feel overwhelmed, lose consistency, and abandon their wellness goals.
 
-Current health-tracking applications face several limitations:
+**Key Pain Points:**
 
-* Health data is stored but rarely translated into actionable insights.
-* Recommendations are generic and identical for all users.
-* Notifications are time-based rather than context-aware.
-* Users receive raw metrics instead of meaningful wellness guidance.
-* Early signs of fatigue, stress, and burnout often go unnoticed.
-
-As a result, many users become overwhelmed, disengage from tracking, and abandon wellness goals within weeks.
+* Health data is scattered across multiple apps with no unified view
+* Reminders are generic and time-based rather than personalized
+* Users receive raw statistics instead of meaningful, actionable insights
+* Early signs of fatigue, stress, and burnout often go unnoticed
+* Maintaining healthy habits becomes difficult without continuous guidance
 
 ---
 
-# Target Audience
+### Who Is Affected
 
-### Young Professionals (18–35)
-
-Managing demanding schedules, stress, and work-life balance challenges.
-
-### Students
-
-Facing irregular sleep cycles, inconsistent eating habits, and academic pressure.
-
-### Individuals with Chronic Conditions
-
-Requiring consistent monitoring of daily wellness habits, including those managing diabetes, hypertension, or related health concerns.
+* **Young Professionals (18–35)** balancing demanding work schedules and personal well-being
+* **Students** dealing with irregular sleep cycles, stress, and inconsistent nutrition
+* **Fitness Enthusiasts** seeking data-driven insights to optimize performance
+* **Individuals Managing Chronic Conditions** who require consistent wellness monitoring
 
 ---
 
-# Proposed Solution: VitaAI
+### Proposed Solution — Aura Health
 
-VitaAI acts as a personalized AI wellness coach that learns from user behavior and delivers proactive, context-aware guidance.
+**Aura Health** is an AI-powered wellness companion that learns user behavior, identifies health patterns, and delivers proactive, personalized recommendations to improve overall well-being.
 
-Rather than simply logging health information, VitaAI identifies patterns, predicts risks, and recommends small, achievable actions that improve overall well-being.
+Rather than simply tracking health metrics, Aura Health transforms daily wellness data into actionable guidance that helps users build sustainable habits.
 
----
+**Core Features:**
 
-# Core Features
+### 1. Smart Daily Check-In
 
-## 1. Daily Wellness Check-In
+Users can quickly log:
 
-A streamlined dashboard enabling users to log:
-
-* Sleep quality and duration
+* Mood
+* Sleep quality
 * Hydration levels
-* Mood and emotional state
 * Meals and nutrition
 * Physical activity
 
-**Goal:** Complete daily check-ins in under 60 seconds.
+All within **less than 60 seconds**.
 
----
+### 2. AI Wellness Pattern Analysis
 
-## 2. AI Pattern Analysis Engine
+Aura Health analyzes trends across multiple health indicators and uncovers hidden relationships, such as:
 
-Uses AI to identify correlations across multiple wellness signals.
+* Poor sleep after excessive screen time
+* Reduced energy levels linked to dehydration
+* Stress spikes affecting productivity and mood
 
-Examples:
+### 3. Personalized Smart Nudges
 
-* "Your sleep quality decreases on days with screen time after 10 PM."
-* "Hydration below target is associated with lower energy levels."
-* "Physical activity improves your mood score by 20% on average."
+Context-aware recommendations generated based on user behavior:
 
----
+* "You've slept less than 6 hours for two consecutive nights."
+* "Your hydration levels are below average this week."
+* "A short walk may help improve your current energy levels."
 
-## 3. Smart Context-Aware Nudges
+### 4. Weekly Wellness Report
 
-Instead of generic reminders, VitaAI delivers personalized recommendations based on real user behavior.
-
-Examples:
-
-* "You've experienced low energy for two consecutive days. Consider a 10-minute walk."
-* "Your hydration has been below target this week. Try drinking a glass of water now."
-* "Sleep consistency has declined. Consider reducing screen exposure before bedtime."
-
----
-
-## 4. Weekly AI Health Report
-
-Generates a clear, human-readable summary including:
+AI-generated summaries provide:
 
 * Health trends
-* Positive habit streaks
-* Areas requiring improvement
-* Personalized recommendations for the following week
+* Positive habit recognition
+* Areas needing improvement
+* Personalized wellness recommendations
+
+Presented in simple, human-friendly language.
+
+### 5. Wellness Risk Score
+
+Aura Health combines multiple wellness indicators into a single **0–100 Wellness Score**, helping users identify:
+
+* Fatigue risk
+* Burnout probability
+* Recovery status
+* Overall health consistency
 
 ---
 
-## 5. Burnout Risk Score
+### Why AI & Automation?
 
-A predictive wellness metric ranging from 0–100 that combines:
+Traditional wellness trackers are passive tools that only record information. Aura Health actively analyzes and interprets user data.
 
-* Sleep quality
-* Energy levels
-* Mood trends
-* Activity levels
-* Hydration consistency
+**Artificial Intelligence**
 
-This feature helps users recognize early warning signs of fatigue, stress, and burnout before they become serious problems.
+* Detects behavioral patterns across health metrics
+* Generates personalized wellness insights
+* Predicts potential wellness risks before they become serious
 
----
+**Automation**
 
-# Why AI & Automation?
+* Delivers intelligent, context-aware reminders
+* Encourages healthy habits at the right time
+* Reduces user effort while increasing engagement
 
-Traditional wellness trackers are passive data repositories.
+**Natural Language Processing (NLP)**
 
-VitaAI introduces intelligence through:
-
-### Artificial Intelligence
-
-* Personalized health insight generation
-* Behavioral pattern recognition
-* Wellness trend analysis
-
-### Automation
-
-* Context-aware notifications
-* Automated health summaries
-* Proactive intervention triggers
-
-### Natural Language Processing (NLP)
-
-* Converts complex health metrics into easy-to-understand recommendations
-* Provides conversational, human-friendly feedback
+* Converts complex health data into clear, understandable advice
+* Makes wellness insights accessible to all users
 
 ---
 
-# Expected Impact
+### Expected Impact
 
-| Metric                        | Target                            |
-| ----------------------------- | --------------------------------- |
-| Daily Check-In Time           | < 60 seconds                      |
-| 7-Day User Retention          | 70%+                              |
-| Actionable Insights Generated | 3–5 per user/week                 |
-| Burnout Detection Accuracy    | 80%+ (vs. self-reported outcomes) |
-
----
-
-# Technical Architecture
-
-### Frontend
-
-* HTML5
-* CSS3
-* Vanilla JavaScript
-
-### Backend
-
-* Node.js or Python Flask
-
-### AI Layer
-
-* Claude API for personalized insight generation
-* NLP-based recommendation engine
-
-### Data Storage
-
-* LocalStorage (Hackathon MVP)
-* Firebase (Production Deployment)
+| Metric                            | Target       |
+| --------------------------------- | ------------ |
+| Daily check-in completion time    | < 60 seconds |
+| 7-day habit retention rate        | 70%+         |
+| Personalized insights generated   | 3–5 per week |
+| Wellness risk prediction accuracy | 80%+         |
+| User engagement improvement       | 50%+         |
 
 ---
 
-# Vision
+### Tech Stack (Round 2 Plan)
 
-Our vision is to make personalized wellness guidance accessible to everyone. By combining AI-driven insights with behavioral health tracking, VitaAI empowers users to make smarter daily decisions, prevent burnout, and build sustainable habits that improve long-term well-being.
+**Frontend**
 
-**VitaAI transforms health tracking from passive monitoring into proactive wellness coaching.**
+* HTML
+* CSS
+* JavaScript (Vanilla)
+
+**Backend**
+
+* Python Flask / Node.js
+
+**Artificial Intelligence**
+
+* Claude API / OpenAI API
+* AI-based wellness insight generation
+
+**Storage**
+
+* LocalStorage (Prototype)
+* Firebase (Production)
+
+**Automation**
+
+* Scheduled health reports
+* Smart notification engine
+* Wellness risk monitoring system
+
+---
+
+### Vision
+
+Aura Health aims to become a trusted AI wellness companion that helps individuals understand their health better, build lasting habits, and prevent burnout through intelligent, personalized guidance.
+
+---
+
+**Team:** [Your Team Name]
+**Hackathon:** AI & Automation — Smart Tools for Everyday Problems
