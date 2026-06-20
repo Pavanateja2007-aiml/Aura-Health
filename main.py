@@ -14,6 +14,10 @@ from reportlab.lib import colors
 app = FastAPI(title="AuraHealth Automation Platform")
 DB_PATH = 'aura_health.db'
 
+if __name__ == '__main__':
+    # Use the port assigned by the cloud provider, or default to 5000 locally
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
 # ==========================================
 # 1. DATABASE AUTOMATION & CORE INITIALIZATION
 # ==========================================
